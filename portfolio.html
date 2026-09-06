@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections Portfolio | Zion Stitches</title>
+    <link class="shared-css" rel="stylesheet" href="style.css">
+    <script src="nav.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo-container">
+            <span class="logo-text">ZION</span>
+            <span class="logo-subtext">STITCHES</span>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li> <a href="service.html">Service</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="portfolio.html" class="active">Collections</a></li>
+                
+                <li><a href="contact.html">Contact</a></li>
+                <li class="mobile-whatsapp"><a href="https://wa.me/09057490038?text=Hello%20Zion%20Stitches%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener">Contact via WhatsApp</a></li>
+                     </ul>
+        </nav>
+        <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <a href="https://wa.me/09057490038?text=Hello%20Zion%20Stitches%2C%20I%20would%20like%20to%20place%20an%20order." class="btn-nav-book" target="_blank" rel="noopener">Contact via WhatsApp</a>
+    </header>
+
+    <section class="hero-banner" style="height: 45vh; background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1920');">
+        <span class="hero-tag">Our Collections</span>
+        <h1 style="font-size: 48px;">Crafted with Passion, <br><span>Designed for You</span></h1>
+        <p>Explore our exclusive collection of handcrafted designs that blend heritage techniques with modern structural aesthetics.</p>
+    </section>
+
+    <section class="section-padding">
+        <div class="collection-filters">
+            <button class="filter-btn active" onclick="filterGallery('all')">All Collections</button>
+            <button class="filter-btn" onclick="filterGallery('bridal')">Bridal Wear</button>
+            <button class="filter-btn" onclick="filterGallery('mens')">Men's Fashion</button>
+            <button class="filter-btn" onclick="filterGallery('traditional')">Traditional Wear</button>
+            <button class="filter-btn" onclick="filterGallery('children')">Children's Wear</button>
+          
+            
+
+        <div class="grid-gallery" id="portfolio-grid">
+            <div class="gallery-card" data-category="bridal">
+                <div class="card-img-container">
+                    <img src="Bridal 1.jpg" alt="Bridal Wear">
+                    
+                </div>
+                <div class="card-details">
+                    <h4>Regal Bridal Ensemble</h4>
+                    <span>Bridal Wear</span>
+                </div>
+            </div>
+
+
+            <div class="gallery-card" data-category="bridal">
+                <div class="card-img-container">
+                    <img src="Bridal 3.jpg" alt="Bridal Wear">
+                    
+                </div>
+                <div class="card-details">
+                    <h4>Regal Bridal Ensemble</h4>
+                    <span>Bridal Wear</span>
+                </div>
+            </div>
+
+
+            
+           
+            <div class="gallery-card" data-category="bridal">
+                <div class="card-img-container">
+                    <img src="Bridal 2.jpg" alt="Bridal Wear">
+                    
+                </div>
+                <div class="card-details">
+                    <h4>Bridal Couture Flair</h4>
+                    <span>Bridal Wear</span>
+                </div>
+            </div>
+
+
+            
+             
+
+            <div class="gallery-card" data-category="mens">
+                <div class="card-img-container">
+                    <img src="men 1.jpg" alt="Midnight Luxe">
+                
+                </div>
+                <div class="card-details">
+                    <h4>Midnight Luxe Sherwani</h4>
+                    <span>Men's Fashion</span>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="mens">
+                <div class="card-img-container">
+                    <img src="men 4.jpg" alt="Midnight Luxe">
+                    <
+                </div>
+                <div class="card-details">
+                    <h4>Midnight Luxe Sherwani</h4>
+                    <span>Men's Fashion</span>
+                </div>
+            </div>
+
+            <div class="gallery-card" data-category="mens">
+                <div class="card-img-container">
+                    <img src="men 3.jpg" alt="Midnight Luxe">
+                    
+                </div>
+                <div class="card-details">
+                    <h4>Midnight Luxe Sherwani</h4>
+                    <span>Men's Fashion</span>
+                </div>
+            </div>
+
+
+<div class="gallery-card" data-category="traditional">
+                <div class="card-img-container">
+                    <img src="traditional 1.jpg" alt="Golden Heritage">
+                </div>
+                <div class="card-details">
+                    <h4>Golden Heritage</h4>
+                    <span>Traditional Wear</span>
+                </div>
+            </div>
+
+            
+
+            
+            <div class="gallery-card" data-category="traditional">
+                <div class="card-img-container">
+                    <img src="men 2.jpg" alt="Golden Heritage">
+                </div>
+                <div class="card-details">
+                    <h4>Golden Heritage</h4>
+                    <span>Traditional Wear</span>
+                </div>
+            </div>
+
+
+            <div class="gallery-card" data-category="traditional">
+                <div class="card-img-container">
+                    <img src="traditonal 3.jpg">
+                </div>
+                <div class="card-details">
+                    <h4>Golden Heritage</h4>
+                    <span>Traditional Wear</span>
+                </div>
+            </div>
+
+
+            <div class="gallery-card" data-category="children">
+                <div class="card-img-container">
+                    <img src="children 1.jpg" alt="Princess Dress">
+                    
+                </div>
+                <div class="card-details">
+                    <h4>Little Princess Dress</h4>
+                    <span>Children's Wear</span>
+                </div>
+            </div>
+
+             <div class="gallery-card" data-category="children">
+                <div class="card-img-container">
+                    <img src="children 2.jpg" alt="Princess Dress">
+                    
+                </div>
+                <div class="card-details">
+                    <h4>Little Boy Wear</h4>
+                    <span>Children's Wear</span>
+                </div>
+            </div>
+
+             <div class="gallery-card" data-category="children">
+                <div class="card-img-container">
+                    <img src="children 3.jpg" alt="Princess Dress">
+                    
+                </div>
+                <div class="card-details">
+                    <h4>Big Baby Dress</h4>
+                    <span>Children's Wear</span>
+                </div>
+            </div>
+
+             
+            
+
+            
+            
+        </div>
+
+        <div class="inline-cta-banner">
+            <div class="cta-text-left">
+                <h3>Love Our Collection Pieces?</h3>
+                <p>Send your order directly to our design experts on WhatsApp.</p>
+            </div>
+            <a href="https://wa.me/09057490038?text=Hello%20Zion%20Stitches%2C%20I%20would%20like%20to%20place%20an%20order." class="btn-gold" target="_blank" rel="noopener">Contact via WhatsApp &rarr;</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top-grid">
+            <div class="footer-brand-column">
+                <div class="logo-container">
+                    <span class="logo-text" style="font-size:22px;">ZION</span>
+                    <span class="logo-subtext" style="font-size:8px; letter-spacing:4px;">STITCHES</span>
+                </div>
+                <p>We make quality outfits that fit well and help you look your best for every occasion.</p>
+            </div>
+            <div>
+                <h4 class="footer-column-heading">Quick Links</h4>
+                <ul class="footer-links-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio Archive</a></li>
+                    <li><a href="about.html">About Us Studio</a></li>
+                    <li><a href="contact.html">Contact Desk</a></li>
+                    <li><a href="https://wa.me/09057490038?text=Hello%20Zion%20Stitches%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener">Contact via WhatsApp</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-column-heading">Our Collections</h4>
+                <ul class="footer-links-list">
+                    <li><a href="portfolio.html">Bridal Wear</a></li>
+                    <li><a href="portfolio.html">Men's Fashion Line</a></li>
+                    <li><a href="portfolio.html">Traditional Luxe Layers</a></li>
+                    <li><a href="portfolio.html">Children's Gala Attire</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-column-heading">Contact Us</h4>
+                <ul class="contact-detail-bullets footer-links-list">
+                    <li><span>&#128222;</span><span>09057490038</span></li>
+                    <li><span>&#128205;</span><span>Abuja, Nigeria</span></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function filterGallery(category) {
+            // Update active state class on filter buttons
+            const buttons = document.querySelectorAll('.filter-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Filter item elements
+            const cards = document.querySelectorAll('.gallery-card');
+            cards.forEach(card => {
+                if (category === 'all' || card.getAttribute('data-category') === category) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
